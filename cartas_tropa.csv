@@ -1,0 +1,11 @@
+ID,Carta,Raridade,Elixir,Alvo,Alcance,Velocidade_do_impacto,Velocidade,Tempo_de_mobilizacao,Quantidade,Movimentacao,Tipo,Especial
+1,Principe,Epica,5,Terrestre,Corpo a corpo (120),1.4 seg,Medio (60),1 seg,x1,Terrestre,Tropa
+2,Mosqueteira,Rara,4,Aereo e Terrestre,6,1.1 seg,Media (60),1 seg,x1,Terrestre,Tropa
+3,Mini P.E.K.K.A,Rara,4,Terrestre,Fisico próximo,1.6 seg,Rapida (90),1 seg,x1,Terrestre,Tropa		
+4,Bebe Dragao,Epica,4,Terrestre e Aereo,3.5,1.5 seg,Rapida (90),1 seg,x1,Aerea,Tropa
+5,Cavaleiro,Comum,3,Terrestre,Corpo a Corpo (1.2),1.2 seg,Media (60),1 seg,x1,Terrestre,Tropa
+6,Arqueiras,Comum,3,Terrestre e Aereo,5,0.9 seg,Media (60),1 seg,x2,Terrestre,Tropa,
+7,Gigante,Rara,5,Construcoes,Fisico Medio,1.5 seg,Lenta (45),1 seg,x1,Terrestre,Tropa
+8,Mago de Gelo,3,Terrestre e Aereo,5.5,1.7 seg,Medio (60),1 seg,x1,Terrestre,Tropa,Duracao da desaceleracao 2.5 seg e Desaceleracao -35%
+9,Bruxa,Epica,5,Terrestre e Aereo,5.5,1.1 seg,Média (60),1 seg,x1,Terrestre,Tropa,invoca 4 esqueletos Velocidade de geração 7 seg 
+10,Bombardeiro,Comum,2,Terrestre,4.5,1.8 seg,Média (60),1 seg,x1,Terrestre,Tropa
