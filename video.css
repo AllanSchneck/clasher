@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cambo&family=Graduate&family=Lilita+One&family=Spinnaker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --color1 : #918f8f;
+    --fonte1 : 'Graduate';
+}
+
+
+body{
+    background-color: var(--color1);
+        margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+  /*  background-image: repeating-linear-gradient(90deg,#6DB0FE,#83E7FF);
+
+    background-image: repeating-linear-gradient(120deg,#E6751F,#B5885B);
+
+
+    background-image: repeating-linear-gradient(120deg,#CD16EE,#A48384);
+
+
+    background-image: repeating-linear-gradient(120deg,#28FFAF,#C4FFBA,#FFFFD1,#FFA1DD,#A48384);
+
+*/
+
+div{
+    align-items: center;
+}
+
+
+.titulo {
+    pointer-events: none;
+    text-align: center;
+    margin: 0px 0px 0px 30px; /* Ajusta a margem para a direita */
+    width: 40px;
+    font-family: 'Roboto';  
+    color: #1f1f1f;
+    background: #b3b27c;
+}
+
+
+.container_pai > iframe{
+    margin: 100px 0px;
+    max-width: 1050px;
+    min-width: 750px;
+    max-height: 700px;
+    min-height: 500px;
+    height: auto;
+    background-image: repeating-linear-gradient(90deg,#6DB0FE,#83E7FF);
+    padding: 30px;
+    border-radius: 10px;
+    border: 4px solid #220801 ;
+    outline: 5px solid #220801;
+    opacity: 90%;
+}
+.container_pai > a{
+    margin: auto;
+    background: #000000;
+    color: white;
+    padding: 12px;
+    height: 0.01px;
+    border-radius: 100%;
+}
+
+.container_pai{
+    display: block;
+    text-align: center;
+    font-family: 'Lilita One';
+}
+
+
+footer {
+    align-items: center; /* Alinha os itens horizontalmente no centro */
+    justify-content: center; /* Alinha os itens verticalmente no centro */
+    font-family: 'Roboto';
+    text-align: center;
+    background-color: #918f8f;
+}
+
+footer > h1 {
+    margin: 80px 0 0 0; /* Ajusta a margem superior do h1 */
+
+}
+
+footer > h2 {
+    margin: 40px 0px 10px 0px; /* Ajusta a margem do h2 */
+
+}
+
+nav {
+    margin: 200px 0px 0px 0px;
+    text-decoration: none;
+    font-family: 'Roboto', Tahoma, sans-serif;
+    display: flex;
+    justify-content: center; /* Alinha os links das redes sociais no centro */
+    gap: 60px; /* Espaço entre os links */
+}
+
+footer > nav > a {
+    color: rgb(3, 3, 3);
+    border-radius: 100px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    padding: 2px 6px;
+    transition-duration: 0.33s;
+    background-color: #918f8f;
+    text-align: center;
+    transition-duration: 0.33s;
+}
+
+/* Estilo para o Github */
+.github:hover {
+    background-color: rgb(110, 109, 241);
+}
+/* Estilo para o Facebook */
+.facebook:hover {
+    background-color: rgb(72, 103, 170);
+}
+/* Estilo para o Instagram */
+.instagram:hover {
+    background-image: linear-gradient(220deg, #9314F9, #FE0889, #FFAC09);
+}
+/* Estilo para o Linkedin */
+.Linkedin:hover {
+    color: white;
+    background-color: #0A66C2;
+}
