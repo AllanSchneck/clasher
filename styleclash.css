@@ -47,6 +47,7 @@ display: none;
     transition: padding 1s, opacity 1s, border-radius 1s;
     margin: 100px auto auto auto;
     width: auto;
+    font-size: 11px;
     padding: 50px;
     width: 420px;
     height: 520px;
@@ -57,12 +58,13 @@ display: none;
     border: none;
     border-radius: 20px;
     text-align: start;
-    columns: 1;
+   
     
 }
 .rara > dialog:hover{
     transition: padding 1s, opacity 1s, border-radius 1s;
     margin: 100px auto auto auto;
+    font-size: 11px;
     width: auto;
     padding: 50px;
     width: 420px;
@@ -74,13 +76,14 @@ display: none;
     border: none;
     border-radius: 20px;
     text-align: start;
-    columns: 1;
+
 }
 .epica > dialog:hover{
     transition: padding 1s, opacity 1s, border-radius 1s;
     margin: 100px auto auto auto;
     width: auto;
     padding: 50px;
+    font-size: 11px;
     width: 420px;
     height: 520px;
     color: #ffffff;
@@ -90,12 +93,12 @@ display: none;
     border: none;
     border-radius: 20px;
     text-align: start;
-    columns: 1;
     
 }
 .lendaria > dialog:hover{
     transition: padding 1s, opacity 1s, border-radius 1s;
     margin: 100px auto auto auto;
+    font-size: 11px;
     width: auto;
     padding: 50px;
     width: 420px;
@@ -107,7 +110,6 @@ display: none;
     border: none;
     border-radius: 20px;
     text-align: start;
-    columns: 1
 }
 dialog > h1
 {
