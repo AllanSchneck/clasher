@@ -8,28 +8,21 @@
     --fonte1 : 'Graduate';
 }
 
-
 .links{
     height: 130px;
     width: 130px;
-    border: 50px;
 }
 
 body{
     background-color: var(--color1);
-        margin: 0;
-    padding: 0;
+    margin: auto;
     display: block;
 }
+
 a{
     text-decoration: none;
+    cursor:pointer ;
 }
-
-.hide{
-display: none;
-
-}
-
 
 #container_post h2{
     font-family: var(--fonte1);
@@ -42,75 +35,40 @@ display: none;
 
 /*https://www.clashroyaledicas.com/2016/01/todas-cartas-de-clash-royale-wiki.html#:~:text=As%20Cartas%20Raras%20t%C3%AAm%2013,n%C3%ADvel%2011%20ao%20n%C3%ADvel%2015.*/
 
+dialog:hover{
+    transition: padding 1s, opacity 1s, border-radius 1s;
+    margin: 50px auto auto auto;
+    width: auto;
+    font-size: 11px;
+    padding: 20px;
+    width: 100px;
+    height: 320px;
+    color: #000000;
+    font-family: var(--fonte1);
+    opacity: 89%;
+    border: none;
+    border-radius: 20px;
+    text-align: start;
+}
 
 .comum > dialog:hover{
-    transition: padding 1s, opacity 1s, border-radius 1s;
-    margin: 100px auto auto auto;
-    width: auto;
-    font-size: 11px;
-    padding: 50px;
-    width: 420px;
-    height: 520px;
-    color: #000000;
     background-image: repeating-linear-gradient(90deg,#6DB0FE,#83E7FF);
-    font-family: var(--fonte1);
-    opacity: 89%;
-    border: none;
-    border-radius: 20px;
-    text-align: start;
-   
-    
 }
-.rara > dialog:hover{
-    transition: padding 1s, opacity 1s, border-radius 1s;
-    margin: 100px auto auto auto;
-    font-size: 11px;
-    width: auto;
-    padding: 50px;
-    width: 420px;
-    height: 520px;
-    color: #ffffff;
-    background-image: repeating-linear-gradient(120deg,#E6751F,#B5885B);
-    font-family: var(--fonte1);
-    opacity: 89%;
-    border: none;
-    border-radius: 20px;
-    text-align: start;
 
+.rara > dialog:hover{
+    color: white;
+    background-image: repeating-linear-gradient(120deg,#E6751F,#B5885B);
 }
+
 .epica > dialog:hover{
-    transition: padding 1s, opacity 1s, border-radius 1s;
-    margin: 100px auto auto auto;
-    width: auto;
-    padding: 50px;
-    font-size: 11px;
-    width: 420px;
-    height: 520px;
-    color: #ffffff;
+    color: white;
     background-image: repeating-linear-gradient(120deg,#CD16EE,#A48384);
-    font-family: var(--fonte1);
-    opacity: 89%;
-    border: none;
-    border-radius: 20px;
-    text-align: start;
-    
 }
+
 .lendaria > dialog:hover{
-    transition: padding 1s, opacity 1s, border-radius 1s;
-    margin: 100px auto auto auto;
-    font-size: 11px;
-    width: auto;
-    padding: 50px;
-    width: 420px;
-    height: 520px;
-    color: #000000;
     background-image: repeating-linear-gradient(120deg,#28FFAF,#C4FFBA,#FFFFD1,#FFA1DD,#A48384);
-    font-family: var(--fonte1);
-    opacity: 89%;
-    border: none;
-    border-radius: 20px;
-    text-align: start;
 }
+
 dialog > h1
 {
     text-align: start;
@@ -119,20 +77,17 @@ dialog > h1
 
 dialog > button{
     border: none;
-    text-decoration: none;
     position: relative;
     right: 0px;
-    left: 350px;
+    left: 150px;
     top: 50px;
     font-size: 12px;
     width: 90px;
     height: 20px;
     background: rgb(241, 241, 241);
     color: rgb(0, 0, 0);
-    border: none;
     border-radius: 20px;
 }
-
 
 div{
     align-items: center;
@@ -153,14 +108,15 @@ img{
     color: #1f1f1f;
     background: #b3b27c;
 }
+
 .container_pai{
     display: block;
     text-align: center;
     font-family: 'Bungee Spice';
     font-size: 22px;
     font-weight: 100;
-    font-style: normal;
 }
+
 .container_pai > img{
     box-shadow: 7px 7px 20px black;
     margin: 100px;
@@ -172,21 +128,17 @@ img{
 }
 
 .EasterEgg > a > img{
-
     box-shadow: 7px 7px 20px black;
     margin: 175px;
     text-align: center;
-    width:  80%;
+    width: 80%;
     height: 1200px;
     border-radius: 20px;
     outline-color: #000000;
 }
 
-
-
 .container_1{
     color: rgb(37, 37, 37);
-    max-width: 1100px;
     margin: auto;
     font-size: 7px;
     font-weight: bolder;
@@ -199,8 +151,8 @@ img{
     display: flex;
     flex-direction: row;
     box-shadow: 8px 8px 3px rgb(77, 77, 77);
-
 }
+
 .container_1 > div{
     text-align: center;
     margin: 10px auto;
@@ -212,57 +164,15 @@ img{
     border-radius: 50px;
     transition: background-image 2s, transform 2s;
 }
-.container_1 > div > h1{
-    pointer-events: none;
-}
-
-
 
 .comum > a:hover{
     background-image: repeating-linear-gradient(90deg,#6DB0FE,#83E7FF);
     transform: scale(1.1);
 }
 
-
-.comum > button{
+ button{
     padding: 0px;
     margin: 10px 20px;
-    font-size: 12px;
-    width: 90px;
-    height: 20px;
-    background: #0A0908;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    
-}
-
-.rara > button{
-    padding: 0px;
-    margin: 10px 20px;
-    font-size: 12px;
-    width: 90px;
-    height: 20px;
-    background: #0A0908;
-    color: white;
-    border: none;
-    border-radius: 20px;
-}
-.epica > button {
-    padding: 0px;
-    margin: 10px 20px;
-    font-size: 12px;
-    width: 90px;
-    height: 20px;
-    background: #0A0908;
-    color: white;
-    border: none;
-    border-radius: 20px;
-}
-
-.lendaria > button{
-    padding: 0px;
-    margin: 20px 20px;
     font-size: 12px;
     width: 90px;
     height: 20px;
@@ -276,6 +186,7 @@ img{
     background-image: repeating-linear-gradient(90deg,#E6751F,#B5885B);
     transform: scale(1.1);
 }
+
 .epica > a:hover{
     background-image: repeating-linear-gradient(90deg,#CD16EE,#A48384);
     transform: scale(1.1);
@@ -285,9 +196,9 @@ img{
     background-image: repeating-linear-gradient(90deg,#28FFAF,#C4FFBA,#FFFFD1,#FFA1DD,#A48384);
     transform: scale(1.1);
 }
+
 .container_2{
     color: rgb(37, 37, 37);
-    max-width: 1100px;
     margin: auto;
     font-size: 7px;
     font-weight: bolder;
@@ -301,6 +212,7 @@ img{
     flex-direction: row;
     box-shadow: 8px 8px 5px rgb(77, 77, 77);
 }
+
 .container_2 > div{
     align-items: center;
     text-align: center;
@@ -308,14 +220,17 @@ img{
     display: flex;
     flex-direction: column;
 }
+
 .container_2 > div > a{
     background-image: none;
     border-radius: 50px;
     transition: background-image 2s, transform 2s;
 }
-.container_2 > div > h1{
-    pointer-events: none    ;
+
+ h1{
+    pointer-events: none;
 }
+
 .container_3{
     margin:  0px auto;
     font-size: 12px;
@@ -327,28 +242,25 @@ img{
     height: 50px;
     width: 200px;
     background-color: #250606;
-    text-decoration: none;
     box-shadow: 2px 2px 2px black;
 }
+
 .container_3 > div{
-    text-decoration: none;
     width: 100%;
     height: 20px;
     margin: auto;
     text-align: center;
-
 }
+
 .container_3 > div >  a{
     margin: 0px 4px;
     border-radius: 50px;
     color: #ffffff;
     font-size: larger;
     font-weight: 400;
-    text-decoration: none;
     font-family: 'Roboto',Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
-
 }
+
 footer {
     align-items: center; /* Alinha os itens horizontalmente no centro */
     justify-content: center; /* Alinha os itens verticalmente no centro */
@@ -359,17 +271,14 @@ footer {
 
 footer > h1 {
     margin: 80px 0 0 0; /* Ajusta a margem superior do h1 */
-
 }
 
 footer > h2 {
     margin: 40px 0px 10px 0px; /* Ajusta a margem do h2 */
-
 }
 
 nav {
     margin: 200px 0px 0px 0px;
-    text-decoration: none;
     font-family: 'Roboto', Tahoma, sans-serif;
     display: flex;
     justify-content: center; /* Alinha os links das redes sociais no centro */
@@ -379,7 +288,6 @@ nav {
 footer > nav > a {
     color: rgb(3, 3, 3);
     border-radius: 100px;
-    text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: xx-large;
     padding: 2px 6px;
@@ -405,4 +313,318 @@ footer > nav > a {
 .Linkedin:hover {
     color: white;
     background-color: #0A66C2;
+}
+
+@media (max-width:450px){
+    
+.links{
+    height: 60px;
+    width: 60px;
+}
+
+body{
+    background-color: var(--color1);
+    margin: auto;
+    width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    cursor:pointer ;
+}
+
+#container_post h2{
+    font-family: var(--fonte1);
+    color: #000000;
+    font-size: 18px;
+    text-align: start;
+    opacity: 100%;
+
+}
+
+/*https://www.clashroyaledicas.com/2016/01/todas-cartas-de-clash-royale-wiki.html#:~:text=As%20Cartas%20Raras%20t%C3%AAm%2013,n%C3%ADvel%2011%20ao%20n%C3%ADvel%2015.*/
+
+dialog:hover{
+    transition: padding 1s, opacity 1s, border-radius 1s;
+    margin: 100px auto auto auto;
+    width: auto;
+    font-size: 7px;
+    padding: 50px;
+    width: 420px;
+    height: 520px;
+    color: #000000;
+    font-family: var(--fonte1);
+    opacity: 89%;
+    border: none;
+    border-radius: 20px;
+    text-align: start;
+}
+
+.comum > dialog:hover{
+    background-image: repeating-linear-gradient(90deg,#6DB0FE,#83E7FF);
+}
+
+.rara > dialog:hover{
+    color: white;
+    background-image: repeating-linear-gradient(120deg,#E6751F,#B5885B);
+}
+
+.epica > dialog:hover{
+    color: white;
+    background-image: repeating-linear-gradient(120deg,#CD16EE,#A48384);
+}
+
+.lendaria > dialog:hover{
+    background-image: repeating-linear-gradient(120deg,#28FFAF,#C4FFBA,#FFFFD1,#FFA1DD,#A48384);
+}
+
+dialog > h1
+{
+    text-align: start;
+    margin: auto 2px auto auto;
+}
+
+dialog > button{
+    border: none;
+    position: relative;
+    right: 0px;
+    left: 150px;
+    top: 10px;
+    font-size: 10px;
+    width: 30px;
+    height: 20px;
+    background: rgb(241, 241, 241);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+div{
+    align-items: center;
+}
+
+img{
+    margin: auto;
+    width: 50px;
+    height: 80px;
+    
+}
+
+.titulo {
+    pointer-events: none;
+    text-align: center;
+    margin: 0px 0px 0px 30px; /* Ajusta a margem para a direita */
+    width: 40px;
+    font-family: 'Roboto';  
+    color: #1f1f1f;
+    background: #b3b27c;
+}
+
+.container_pai{
+    display: block;
+    text-align: center;
+    font-family: 'Bungee Spice';
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.container_pai > img{
+    box-shadow: 7px 7px 20px black;
+    margin: auto;
+    text-align: center;
+    width:  80%;
+    height: 1200px;
+    border-radius: 20px;
+    outline-color: #000000;
+}
+
+.EasterEgg > a > img{
+    box-shadow: 7px 7px 20px black;
+    margin: 175px;
+    text-align: center;
+    width: 80%;
+    height: 1200px;
+    border-radius: 20px;
+    outline-color: #000000;
+}
+
+.container_1{
+    color: rgb(37, 37, 37);
+    margin: auto;
+    font-size: 4.2px;
+    font-weight: bolder;
+    font-family: var(--fonte1);
+    border-radius: 20px 20px 0px 0px;
+    background-color: #9e9176;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 8px 8px 3px rgb(77, 77, 77);
+}
+
+.container_1 > div{
+    text-align: center;
+    margin: 10px auto;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_1 > div > a{
+    border-radius: 50px;
+    transition: background-image 2s, transform 2s;
+}
+
+.comum > a:hover{
+    background-image: repeating-linear-gradient(90deg,#6DB0FE,#83E7FF);
+    transform: scale(1.1);
+}
+
+ button{
+    padding: 0px;
+    margin: 50px 20px;
+    font-size: 8px;
+    width: 50px;
+    height: 22px;
+    background: #0A0908;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.rara > a:hover{
+    background-image: repeating-linear-gradient(90deg,#E6751F,#B5885B);
+    transform: scale(1.1);
+}
+
+.epica > a:hover{
+    background-image: repeating-linear-gradient(90deg,#CD16EE,#A48384);
+    transform: scale(1.1);
+}
+
+.lendaria > a:hover{
+    background-image: repeating-linear-gradient(90deg,#28FFAF,#C4FFBA,#FFFFD1,#FFA1DD,#A48384);
+    transform: scale(1.1);
+}
+
+.container_2{
+    color: rgb(37, 37, 37);
+    margin: auto;
+    font-size: 4px;
+    font-weight: bolder;
+    font-family: var(--fonte1);
+    border-radius: 0px 0px 20px 20px;
+    background-color: #9e9176;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 8px 8px 5px rgb(77, 77, 77);
+}
+
+.container_2 > div{
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_2 > div > a{
+    background-image: none;
+    border-radius: 50px;
+    transition: background-image 2s, transform 2s;
+}
+
+ h1{
+    pointer-events: none;
+}
+
+.container_3{
+    margin:  0px auto;
+    font-size: 12px;
+    font-family: 'Roboto';
+    border-radius: 0px 0px 20px 20px;   
+    text-align: center;
+    display: flex; 
+    flex-direction: row;
+    height: 50px;
+    width: 200px;
+    background-color: #250606;
+    box-shadow: 2px 2px 2px black;
+}
+
+.container_3 > div{
+    width: 100%;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.container_3 > div >  a{
+    margin: 0px 4px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: larger;
+    font-weight: 400;
+    font-family: 'Roboto',Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    align-items: center; /* Alinha os itens horizontalmente no centro */
+    justify-content: center; /* Alinha os itens verticalmente no centro */
+    font-family: 'Roboto';
+    text-align: center;
+    background-color: #918f8f;
+}
+
+footer > h1 {
+    margin: 80px 0 0 0; /* Ajusta a margem superior do h1 */
+}
+
+footer > h2 {
+    margin: 40px 0px 10px 0px; /* Ajusta a margem do h2 */
+}
+
+nav {
+    margin: 200px 0px 0px 0px;
+    font-family: 'Roboto', Tahoma, sans-serif;
+    display: flex;
+    justify-content: center; /* Alinha os links das redes sociais no centro */
+    gap: 60px; /* Espaço entre os links */
+}
+
+footer > nav > a {
+    color: rgb(3, 3, 3);
+    border-radius: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    padding: 2px 6px;
+    transition-duration: 0.33s;
+    background-color: #918f8f;
+    text-align: center;
+    transition-duration: 0.33s;
+}
+
+/* Estilo para o Github */
+.github:hover {
+    background-color: rgb(110, 109, 241);
+}
+/* Estilo para o Facebook */
+.facebook:hover {
+    background-color: rgb(72, 103, 170);
+}
+/* Estilo para o Instagram */
+.instagram:hover {
+    background-image: linear-gradient(220deg, #9314F9, #FE0889, #FFAC09);
+}
+/* Estilo para o Linkedin */
+.Linkedin:hover {
+    color: white;
+    background-color: #0A66C2;
+}
 }
