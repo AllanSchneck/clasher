@@ -38,7 +38,6 @@ a{
 dialog:hover{
     transition: padding 1s, opacity 1s, border-radius 1s;
     margin: 50px auto auto auto;
-    width: auto;
     font-size: 11px;
     padding: 20px;
     width: 100px;
