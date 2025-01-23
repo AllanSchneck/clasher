@@ -40,8 +40,8 @@ dialog:hover{
     margin: 50px auto auto auto;
     font-size: 11px;
     padding: 20px;
-    width: 380px;
-    height: 470px;
+    width: 400px;
+    height: 500px;
     color: #000000;
     font-family: var(--fonte1);
     opacity: 89%;
@@ -78,8 +78,8 @@ dialog > button{
     border: none;
     position: relative;
     right: 0px;
-    left: 150px;
-    top: 50px;
+    left: 50px;
+    top: 20px;
     font-size: 12px;
     width: 90px;
     height: 20px;
